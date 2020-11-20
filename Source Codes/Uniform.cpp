@@ -1,3 +1,20 @@
+/*
+Kode berikut adalah ditulis atas nama Kelompok H. 
+
+Kode berikut ditulis dalam bahasa C++. Dalam kode berikut, kami tidak menggunakan library sebagai pembantu.
+
+Dalam C++, untuk membuat sebuah grafik adalah bisa seperti kita menggunakan matplotlib (agaknya lucu menggunakan ini sebab matplotlib milik Python yang mana Python itu sendiri 
+di tulis dalam C), gnuplot, koolplot, Qtplot dan lain sebagainnya. Sayangnya, kebanyakan library plotting untuk C++ adalah tua, kebanyakan support C++98 yang mana C++ yang 
+kami tulis adalah dalam versi C++17. Demikian, kami memutuskan untuk menggunakan C++ sebagai "mesin" pembuat angka acak bedasarkan distribusi Uniform, Binomial, ataupun
+Poisson yang menghasilkan output dalam bentuk CSV dan DAT. Kemudian dari titik-titik yang dihasilkan kami plotting menggunakan gnuplot.
+
+Kami menuliskan satu program untuk satu konteks sehingga untuk distribusi uniform, binomial, dan poisson masing-masing satu program saja. Program bisa diakses pada
+
+https://github.com/PSDGroupH/Attachments/tree/main/Programs%20(Windows%20ONLY)
+
+Untuk lebih jelasnya, silahkan jalankan program-program tersebut, terima kasih :)
+*/
+
 #include <iostream>
 #include <random>
 #include <fstream>
